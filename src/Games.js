@@ -5,7 +5,7 @@ class Games extends React.Component {
     return (
       <div className="container">
         <h1>Games!</h1>
-        <p>ID: {this.}
+        <p>ID: {this.props.params.id}
         {this.props.children}
       </div>    );
   }
