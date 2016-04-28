@@ -3,8 +3,11 @@ import React from 'react';
 class Game extends React.Component {
   render() {
     return (
-      <h2>Game!</h2>
-    );
+      <div className="container">
+        <h1>Game!</h1>
+
+        {this.props.children}
+      </div>    );
   }
 }
 

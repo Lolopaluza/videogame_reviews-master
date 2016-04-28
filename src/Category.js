@@ -3,8 +3,11 @@ import React from 'react';
 class Category extends React.Component {
   render() {
     return (
-      <h2>Category!</h2>
-    );
+      <div className="container">
+        <h1>Category!</h1>
+
+        {this.props.children}
+      </div>    );
   }
 }
 
